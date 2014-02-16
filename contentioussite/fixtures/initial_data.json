@@ -1,0 +1,181 @@
+[
+	{
+		"pk": 1,
+		"model": "auth.user",
+		"fields": {
+			"username": "admin",
+			"first_name": "",
+			"last_name": "",
+			"is_active": true,
+			"is_superuser": true,
+			"is_staff": true,
+			"last_login": "2014-02-16T22:22:59.494Z",
+			"groups": [],
+			"user_permissions": [],
+			"password": "pbkdf2_sha256$12000$WKF6ZTdUXHvJ$CvF0NMtll8ymMLDGfjaNhsXvA1r8oGci5Ua5n3KKSKM=",
+			"email": "1@example.com",
+			"date_joined": "2014-02-16T22:22:59.494Z"
+		}
+	},
+
+	{
+		"pk": 1,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "Welcome To The Awesome Site",
+			"label": "Home page title"
+		}
+	},
+	{
+		"pk": 2,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "Welcome to our lovely website, on here you will find...",
+			"label": "Home Page First Paragraph"
+		}
+	},
+	{
+		"pk": 3,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "You can peruse the various pages of the site to find out about us and what we do.  We are mostly...",
+			"label": "Home Page Second Paragraph"
+		}
+	},
+	{
+		"pk": 4,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "Other things which we do also include fishing, sailing, and writing content.",
+			"label": "Home Page Third Paragraph"
+		}
+	},
+	{
+		"pk": 5,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "Please visit our",
+			"label": "Footer before link text"
+		}
+	},
+	{
+		"pk": 6,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "FAQs page",
+			"label": "Footer link text"
+		}
+	},
+	{
+		"pk": 7,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "for more info",
+			"label": "Footer after link text"
+		}
+	},
+	{
+		"pk": 8,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "Features",
+			"label": "Bullet list item 1"
+		}
+	},
+	{
+		"pk": 9,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "Pricing",
+			"label": "Bullet list item 2"
+		}
+	},
+	{
+		"pk": 10,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "What makes us different",
+			"label": "Bullet list item 3"
+		}
+	},
+	{
+		"pk": 11,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "30 day free trial",
+			"label": "Bullet list item 4"
+		}
+	},
+	{
+		"pk": 12,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "Demo",
+			"label": "Bullet list item 5"
+		}
+	},
+	{
+		"pk": 13,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "About Us",
+			"label": "About Us Page Title"
+		}
+	},
+	{
+		"pk": 14,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "We started up in 2009 in a little shed in John's back garden, and since then we have....",
+			"label": "About Us Intro Text"
+		}
+	},
+	{
+		"pk": 15,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "How much does it cost?",
+			"label": "FAQ Question 1"
+		}
+	},
+	{
+		"pk": 16,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "Our starter package costs just \u00a39.99 per month",
+			"label": "FAQ Answer 1"
+		}
+	},
+	{
+		"pk": 17,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "What if I change my mind?",
+			"label": "FAQ Question 2"
+		}
+	},
+	{
+		"pk": 18,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "We have a 30 day money back guarantee, so you can get a full refund at any time",
+			"label": "FAQ Answer 2"
+		}
+	},
+	{
+		"pk": 19,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "Is it compatible with older versions?",
+			"label": "FAQ Question 3"
+		}
+	},
+	{
+		"pk": 20,
+		"model": "contentioussite.textstring",
+		"fields": {
+			"text": "Yes, it's fully backwards compatible.",
+			"label": "FAQ Answer 3"
+		}
+	}
+]
