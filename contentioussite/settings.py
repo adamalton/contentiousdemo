@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
 
     'contentioussite',
+    'inplaceeditform',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -49,6 +50,10 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
+TEMPLATE_CONTEXT_PROCESSORS = (
+    'django.contrib.auth.context_processors.auth',
+    'django.core.context_processors.request',
+)
 ROOT_URLCONF = 'contentioussite.urls'
 
 WSGI_APPLICATION = 'contentioussite.wsgi.application'
