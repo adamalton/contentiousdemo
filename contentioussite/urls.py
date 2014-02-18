@@ -11,5 +11,7 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
 
     url(r'^$', 'contentioussite.views.index', name='index'),
+    url(r'^potato/$', 'contentioussite.views.potato', name='potato'),
+
     url(r'^inplaceeditform/', include('inplaceeditform.urls')),
 )
