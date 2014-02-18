@@ -10,6 +10,6 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
 
-    #url(r'^$', 'contentioussite.views.home', name='home'),
+    url(r'^$', 'contentioussite.views.index', name='index'),
     url(r'^inplaceeditform/', include('inplaceeditform.urls')),
 )
