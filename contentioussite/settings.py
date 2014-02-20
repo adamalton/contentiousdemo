@@ -38,8 +38,12 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
 
     'contentioussite',
-    'inplaceeditform',
+
+    'contentious',
+    'contentious.contrib.basicedit',
 )
+
+CONTENTIOUS_API = 'contentious.contrib.basicedit.api.BasicEditAPI'
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -53,6 +57,7 @@ MIDDLEWARE_CLASSES = (
 TEMPLATE_CONTEXT_PROCESSORS = (
     'django.contrib.auth.context_processors.auth',
     'django.core.context_processors.request',
+    'django.core.context_processors.static',
 )
 ROOT_URLCONF = 'contentioussite.urls'
 
@@ -87,3 +92,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'staticlibs'), )

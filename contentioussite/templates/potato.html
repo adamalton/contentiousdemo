@@ -1,4 +1,4 @@
-{% load inplace_edit %}
+{% load contentious %}
 
 <!DOCTYPE html>
 
@@ -13,10 +13,10 @@
 <link href="//p.ota.to/static/css/magnific-popup.css" rel="stylesheet">
 <link href="//p.ota.to/static/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" >
 <link href="//p.ota.to/static/css/potato.css" rel="stylesheet">
-<title>Potato</title>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.js"></script>
-{% inplace_toolbar %}
 
+<title>Potato</title>
+<link href="{{STATIC_URL}}fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" />
+<link href="{{STATIC_URL}}css/contentious.css" rel="stylesheet" />
 </head>
 
 <body class="home">
@@ -29,7 +29,7 @@
 		<div class="col-md-11">
 		<ul class="list-unstyled pull-right">
 			<li class="active"><a href="//p.ota.to/">Home</a></li>
-			<li><a href="//p.ota.to/work/">Work</a></li>
+			<li><a href="//p.ota.to/work/">Work</li>
 			<li><a href="//p.ota.to/blog/">Blog</a></li>
 			<li><a href="//p.ota.to/lab/">Lab</a></li>
 			<li><a href="//p.ota.to/jobs/">Jobs</a></li>
@@ -50,8 +50,7 @@
 	<div class="container index-header">
 	<div class="row text-center">
 
-	<a data-cts-edtable="href,content" data-cts-key="my_link"
-		href="https://www.google.com/" title="Value of variable">Default Link Text</a>
+	<h1>We Are Potato</h1>
 
 	<p class="col-lg-5 col-md-5 col-sm-5 col-centered">We build complex and scalable web applications</p></div></div>
 	<nav class="visible-xs">
@@ -313,11 +312,18 @@
 	<div class="container">
 	<div class="row">
 	<p>&copy; 2014 Potato London Ltd</p></div></div></footer>
-	<script src="//p.ota.to/static/js/jquery.min.js"></script>
+	<!--<script src="//p.ota.to/static/js/jquery.min.js"></script>-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.js"></script>
 	<script src="//p.ota.to/static/js/jquery.magnific-popup.js"></script>
 	<script src="//p.ota.to/static/js/potato.js"></script>
 	<script src="//p.ota.to/static/js/picturefill.min.js"></script>
 	<script src="//p.ota.to/static/js/jquery.bxslider.min.js"></script>
 	<script src="//p.ota.to/static/js/carousel.js"></script>
+
+
+	<script src="{{STATIC_URL}}fancybox/jquery.fancybox-1.3.4.js"></script>
+	<script src="{{STATIC_URL}}js/contentious.js"></script>
+	{% include "contentious/common_setup.html" %}
+
 </body>
 </html>

@@ -4,14 +4,10 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    # Examples:
-    # url(r'^$', 'contentioussite.views.home', name='home'),
-    # url(r'^blog/', include('blog.urls')),
-
     url(r'^admin/', include(admin.site.urls)),
-
     url(r'^$', 'contentioussite.views.index', name='index'),
-    url(r'^potato/$', 'contentioussite.views.potato', name='potato'),
 
-    url(r'^inplaceeditform/', include('inplaceeditform.urls')),
+    url(r'^data/', include('contentious.contrib.common.urls')),
+
+
 )
