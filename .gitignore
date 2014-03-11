@@ -3,4 +3,3 @@ dev.sqlite3
 *.pyc
 .DS_Store
 static*
-submodules*

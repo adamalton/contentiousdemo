@@ -1,0 +1,3 @@
+[submodule "submodules/contentious"]
+	path = submodules/contentious
+	url = https://github.com/potatolondon/contentious.git
