@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from contentioussite.models import TextString
+from examplesite.models import TextString
 
 
 class TextStringAdmin(admin.ModelAdmin):

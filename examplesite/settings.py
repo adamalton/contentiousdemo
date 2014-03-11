@@ -1,5 +1,5 @@
 """
-Django settings for contentioussite project.
+Django settings for examplesite project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.6/topics/settings/
@@ -37,7 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'contentioussite',
+    'examplesite',
 
     'contentious',
     'contentious.contrib.basicedit',
@@ -59,9 +59,9 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.request',
     'django.core.context_processors.static',
 )
-ROOT_URLCONF = 'contentioussite.urls'
+ROOT_URLCONF = 'examplesite.urls'
 
-WSGI_APPLICATION = 'contentioussite.wsgi.application'
+WSGI_APPLICATION = 'examplesite.wsgi.application'
 
 
 # Database

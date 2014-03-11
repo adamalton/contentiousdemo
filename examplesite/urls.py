@@ -5,7 +5,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', 'contentioussite.views.index', name='index'),
+    url(r'^$', 'examplesite.views.index', name='index'),
 
     url(r'data/', include('contentious.urls')),
 
